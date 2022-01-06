@@ -1,0 +1,11 @@
+name: projet-ml
+channels:
+  - conda-forge
+dependencies:
+    - python
+    - ipykernel
+    - numpy
+    - scipy
+    - matplotlib
+    - pandas
+    - seaborn

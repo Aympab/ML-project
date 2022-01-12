@@ -1,19 +1,38 @@
-import matplotlib.pyplot as plt
-import pandas as pd
-from sklearn import ensemble, model_selection
+import numpy as np
+from zipfile import ZipFile
+from sklearn import ensemble
+from sklearn import model_selection
 
-X_data = pd.read_csv("data/protein_train.data", sep=" ", header=None)
-y_data = pd.read_csv("data/protein_train.solution", sep=" ", header=None)
+print("Loading data...")
 
-X_test_data = pd.read_csv("data/protein_test.data", sep=" ", header=None)
-X_valid_data = pd.read_csv("data/protein_valid.data", sep=" ", header=None)
+X = np.loadtxt("data/protein_train.data")
+y = np.loadtxt("data/protein_train.solution")
 
-clf = ensemble.BaggingClassifier()
+X_test = np.loadtxt("data/protein_test.data")
+X_valid = np.loadtxt("data/protein_valid.data")
 
-model_CV = model_selection.GridSearchCV(clf, n_jobs=-1, cv=10)
-model_CV.fit(X_data, y_data);
+bag = ensemble.BaggingClassifier()
+param_grid = {
+    'max_features': [0.8],
+    'max_samples': [0.8],
+    'n_estimators': [10],
+}
+cv_bagging = model_selection.GridSearchCV(bag, param_grid=param_grid, cv=10, verbose=3, n_jobs=-1)
 
-best_model = model_CV.best_estimator_
+print("Fitting model...")
 
-print(model_CV)
-print("Best score is : ", model_CV.best_score_)
+cv_bagging.fit(X, y)
+
+
+print("Predicting...")
+
+y_test = cv_bagging.predict(X_test)
+y_valid = cv_bagging.predict(X_valid)
+
+np.savetxt("protein_test.predict", y_test, fmt="%d")
+np.savetxt("protein_valid.predict", y_valid, fmt="%d")
+zip_obj = ZipFile('submission.zip', 'w')
+zip_obj.write("protein_test.predict")
+zip_obj.write("protein_valid.predict")
+
+zip_obj.close()

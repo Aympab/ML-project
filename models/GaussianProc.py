@@ -12,9 +12,6 @@ y = np.loadtxt("data/protein_train.solution")
 X_test = np.loadtxt("data/protein_test.data")
 X_valid = np.loadtxt("data/protein_valid.data")
 
-X = X[:-100]
-y = y[:-100]
-
 scaler = preprocessing.StandardScaler()
 X = scaler.fit_transform(X)
 X_test = scaler.transform(X_test)

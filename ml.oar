@@ -3,8 +3,12 @@
 #OAR -l core=28,walltime=60:00:00
 #OAR -p host='n-in79'
 ## -l core=80,walltime=00:00:30 -S ./run.oar
+
 #OAR -n trainingGauss
 #OAR -O %jobid%.log
 #OAR -E %jobid%.log
-python main.py
+
+python GaussianProc.py
+
+
 echo "End computation"

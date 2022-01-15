@@ -20,7 +20,6 @@ X_valid = scaler.transform(X_valid)
 kn = neighbors.KNeighborsClassifier()
 
 param_grid = {
- 'max_features': [0.15, 0.2, 0.3],
  'n_neighbors': [5, 10, 50],
  'weights' : ['uniform', 'distance'],
  'algorithm' : ['auto', 'ball_tree', 'kd_tree', 'brute'],

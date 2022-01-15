@@ -1,0 +1,2021 @@
+Loading data...
+Fitting model...
+Fitting 7 folds for each of 144 candidates, totalling 1008 fits
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.846, total=13.3min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.917, total=11.8min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.882, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.922, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.917, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.882, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.922, total=21.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.917, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.887, total=22.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.919, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.920, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.887, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.919, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.920, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.887, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.919, total=11.7min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.920, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.850, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.906, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.910, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.850, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.906, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.905, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.853, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.906, total=21.9min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.910, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.852, total=22.4min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.904, total= 8.5min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.905, total= 9.1min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.783, total=  26.5s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.918, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.847, total=  26.2s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.880, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.856, total=  26.4s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.913, total= 9.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.906, total=13.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.905, total=11.8min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.853, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.906, total=10.6min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.910, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.850, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.918, total=21.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.905, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.853, total=22.3min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.909, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.903, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.852, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.904, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.910, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.855, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.909, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.903, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.852, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.904, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.910, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.855, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.909, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.903, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.850, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.906, total=21.9min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.903, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.853, total=22.3min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.909, total= 8.6min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.910, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.908, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.831, total=  26.6s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.849, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.846, total=  26.8s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.905, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.762, total=  26.7s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.838, total=17.1min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.847, total=11.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.782, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.862, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.780, total=10.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.852, total=22.3min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.847, total=22.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.782, total=22.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.852, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.837, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.790, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.862, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.842, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.785, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.862, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.842, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.791, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.858, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.791, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.858, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.791, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.846, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.824, total=22.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.756, total=22.9min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.918, total= 8.6min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.785, total=  26.1s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.906, total= 8.9min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.824, total=  26.2s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.855, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.838, total=  26.0s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.903, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.752, total=  26.6s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.860, total=13.2min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.920, total=11.7min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.887, total=11.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.919, total=10.6min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.920, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.887, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.919, total=21.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.915, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.850, total=22.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.906, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.910, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.853, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.906, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.905, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.881, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.906, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.915, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.881, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.918, total=11.7min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.915, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.881, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.918, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.910, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.881, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.918, total=21.9min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.910, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.850, total=22.4min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.906, total= 8.7min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.920, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.919, total= 9.2min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=  26.3s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.881, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.907, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.747, total=  26.2s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.858, total=12.6min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.903, total=11.7min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.855, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.904, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.910, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.855, total=10.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.909, total=22.0min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.903, total=22.3min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.855, total=22.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.906, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.910, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.855, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.909, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.903, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.852, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.904, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.910, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.855, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.909, total=11.7min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.903, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.852, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.904, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.910, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.855, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.909, total=21.9min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.905, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.855, total=22.4min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.906, total= 8.6min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.915, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.911, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.835, total=  26.3s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.852, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.847, total=  26.6s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.910, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.756, total=  26.2s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.847, total=17.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=11.8min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.752, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.838, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.752, total=10.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.838, total=22.3min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.836, total=22.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.752, total=22.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.847, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.835, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.752, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.838, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.756, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.838, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.836, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.749, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.844, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.835, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.752, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.844, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.835, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.747, total=10.9min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.861, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.836, total=22.6min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.747, total=22.9min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.913, total= 8.6min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.785, total=  26.5s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.922, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.836, total=  26.3s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.850, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.844, total=  26.7s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.905, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.749, total=  26.5s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.906, total=17.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=11.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.785, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.846, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.836, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.749, total=10.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.861, total=22.3min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=22.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.749, total=22.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.846, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.752, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.847, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.831, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.752, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.846, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.831, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.752, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.846, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.824, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.785, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.846, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.831, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.756, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.838, total=22.4min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=22.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.785, total=22.9min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.919, total= 8.6min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.790, total=  26.6s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.919, total= 8.9min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=  26.2s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.881, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.846, total=  26.4s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.910, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.752, total=  26.6s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.913, total=12.4min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.907, total=11.7min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.849, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.910, total=10.6min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.905, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.858, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.910, total=22.0min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.905, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.858, total=22.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.910, total= 9.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.905, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.858, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.910, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.905, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.858, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.910, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.905, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.850, total=11.7min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.908, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.906, total=11.7min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.850, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.908, total=10.4min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.906, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.850, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.908, total=22.0min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.906, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.850, total=22.3min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.908, total= 7.1min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.848, total=  26.8s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.844, total=  27.1s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.846, total=  27.1s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.847, total=  27.0s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.846, total=  26.7s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.862, total=  26.7s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.856, total=  26.8s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.903, total= 9.1min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.791, total=  26.7s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.918, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=  26.2s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.887, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.861, total=  25.9s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.915, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.785, total=  25.5s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.908, total=16.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=11.8min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.755, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.848, total=10.6min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.755, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.848, total=22.3min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=22.6min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.755, total=22.8min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.848, total=10.1min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.755, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.848, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.755, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.848, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.755, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.848, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.755, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.848, total=10.4min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.755, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.848, total=22.4min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=22.6min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.755, total=22.8min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.838, total=  24.4s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.844, total=  24.8s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.861, total=  24.3s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.852, total=  24.2s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.860, total=  24.3s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.907, total= 8.3min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.755, total=  27.1s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.752, total=  27.1s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.780, total=  26.5s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.913, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.842, total=  26.6s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.884, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.858, total=  26.6s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.917, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.791, total=  26.1s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.919, total=12.3min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.906, total=11.6min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.850, total=11.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.908, total=10.6min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.906, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.850, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.908, total=22.0min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.906, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.850, total=22.3min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.908, total= 9.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.906, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.850, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.908, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.906, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.850, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.908, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.906, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.858, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.910, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.905, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.858, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.910, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.905, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.858, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.910, total=22.0min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.905, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.858, total=22.4min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.910, total= 8.0min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.858, total=  26.8s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.862, total=  26.7s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.905, total= 9.2min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.756, total=  26.9s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.910, total= 9.2min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=  26.4s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.853, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.862, total=  26.4s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.920, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.785, total=  25.4s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.904, total=17.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.837, total=11.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.780, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.856, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.842, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.785, total=10.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.862, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=22.6min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.785, total=22.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.844, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.836, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.756, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.846, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.824, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.752, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.844, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.752, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.838, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.752, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.838, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.752, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.846, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.831, total=22.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.752, total=22.9min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.917, total= 8.5min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.752, total=  26.5s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.904, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=  26.3s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.850, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.848, total=  26.3s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.860, total=  26.4s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.919, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.780, total=  25.4s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.846, total=12.3min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.905, total=11.7min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.858, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.911, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.907, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.849, total=10.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.911, total=22.0min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.907, total=22.3min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.849, total=22.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.911, total=10.1min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.907, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.849, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.911, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.907, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.849, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.911, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.907, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.849, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.911, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.907, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.849, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.911, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.907, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.849, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.911, total=21.9min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.907, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.849, total=22.4min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.911, total= 8.3min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.906, total= 9.1min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.747, total=  26.7s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.782, total=  26.7s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.914, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.846, total=  26.3s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.884, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.862, total=  26.4s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.918, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.790, total=  25.3s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.844, total=12.8min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.910, total=11.7min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.852, total=11.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.909, total=10.6min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.903, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.852, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.904, total=22.0min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.910, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.852, total=22.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.904, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.905, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.850, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.918, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.910, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.853, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.906, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.905, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.853, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.906, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.905, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.853, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.906, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.915, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.852, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.904, total=22.1min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.915, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.881, total=22.4min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.918, total= 8.6min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.914, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.906, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.837, total=  25.9s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.882, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.852, total=  26.0s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.914, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.783, total=  25.0s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.862, total=17.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.836, total=11.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.749, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.847, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.824, total=10.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.791, total=10.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.846, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.835, total=22.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.747, total=23.0min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.861, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.831, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.747, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.844, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.835, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.747, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.861, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.824, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.785, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.844, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.762, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.844, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.762, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.844, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=22.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.762, total=22.9min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.910, total= 8.3min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.762, total=  26.9s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.749, total=  26.2s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.909, total= 8.9min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=  26.4s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.858, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.844, total=  26.5s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.906, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.755, total=  26.6s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.782, total=  25.6s
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.910, total=13.1min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=uniform, score=0.910, total=11.7min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.881, total=11.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.918, total=10.6min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.915, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.881, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.906, total=22.0min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.920, total=22.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.882, total=22.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.922, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.917, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.882, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.913, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.914, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.881, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.913, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.913, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.884, total=11.6min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.914, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.913, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.884, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.914, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.913, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.884, total=10.5min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.914, total=21.9min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.918, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.881, total=22.6min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.919, total= 9.1min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.881, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.918, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.782, total=  26.9s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.914, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.850, total= 8.3min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.862, total=14.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.913, total=11.8min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.884, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.914, total=10.6min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.913, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.884, total=10.4min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.914, total=21.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.913, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.884, total=22.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.914, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.913, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.884, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.914, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.913, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.884, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.914, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.914, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.884, total=11.6min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.913, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.914, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.884, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.919, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.914, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.884, total=10.5min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.913, total=22.0min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.914, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.884, total=22.7min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.913, total= 9.0min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.884, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.920, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.752, total=  26.9s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.909, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.831, total=  26.7s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.849, total= 8.2min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.914, total=13.3min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.914, total=11.8min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.881, total=11.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.913, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.918, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.881, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.913, total=22.1min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.918, total=22.4min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.881, total=22.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.919, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.918, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.881, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.919, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.918, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.884, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.919, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.918, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.881, total=11.6min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.919, total=11.7min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.918, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.881, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.913, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.918, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.881, total=10.5min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.919, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.913, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.884, total=22.7min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.914, total= 9.1min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.880, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.919, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.906, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.836, total=  26.6s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.850, total= 8.2min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.918, total=13.1min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.915, total=11.6min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.850, total=11.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.906, total=10.6min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.905, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.853, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.906, total=22.0min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.910, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.881, total=22.4min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.918, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.915, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.881, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=uniform, score=0.906, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.915, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=uniform, score=0.850, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.918, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=uniform, score=0.910, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.887, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.919, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.920, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.887, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.919, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.920, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.887, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.919, total=22.0min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.920, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.887, total=22.5min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.919, total= 8.9min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.836, total=  27.0s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.847, total=  26.6s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.882, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.856, total=  27.0s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.917, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.785, total=  26.9s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.922, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.837, total=  26.2s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.884, total= 8.2min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.909, total=15.2min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.919, total=11.8min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.880, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.918, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.919, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.880, total=10.4min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.918, total=21.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.919, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.880, total=23.3min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.918, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.919, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.880, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.918, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.919, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.880, total=10.2min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.918, total=11.7min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.919, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.880, total=11.3min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.918, total=11.7min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.919, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.880, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.918, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.919, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.880, total=10.4min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.918, total=21.9min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.919, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.880, total=22.6min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.918, total= 9.0min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.884, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.913, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.783, total=  26.5s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.918, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.846, total=  26.6s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.884, total= 8.1min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=uniform, score=0.911, total=13.4min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.918, total=11.7min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.884, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.919, total=10.6min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.914, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.884, total=10.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.919, total=21.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.914, total=22.3min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.884, total=22.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.913, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.914, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.884, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.922, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.917, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.882, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.922, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.917, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.882, total=11.7min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.922, total=11.7min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=1, weights=distance, score=0.917, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.882, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.922, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.917, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=1, weights=distance, score=0.882, total=10.6min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.922, total=21.9min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=1, weights=distance, score=0.917, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.882, total=22.5min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.922, total= 8.8min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=  26.9s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.850, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.858, total=  26.9s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.910, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.762, total=  27.0s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.908, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=  26.7s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.847, total=  26.4s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.880, total= 8.1min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.922, total=17.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.835, total=11.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.756, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.844, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.762, total=10.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.844, total=22.3min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.831, total=22.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.752, total=22.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.846, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.824, total=10.8min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.749, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.861, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.791, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.858, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=12.0min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.785, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.862, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.842, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.785, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.862, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.842, total=10.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.785, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.862, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.842, total=22.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.785, total=23.0min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=  25.6s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.849, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.846, total=  26.5s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.862, total=  26.2s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.915, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.749, total=  26.0s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.906, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.835, total=  26.3s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.852, total= 8.4min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.918, total=16.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.831, total=11.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.752, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.844, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.835, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.752, total=10.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.846, total=22.3min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=22.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.762, total=22.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.844, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.762, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.844, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.762, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.844, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=12.0min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.762, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.846, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.749, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.861, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.749, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.858, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=22.6min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.749, total=22.9min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=  25.9s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.835, total=  25.9s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.842, total=  26.2s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.852, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.844, total=  26.4s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.905, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.752, total=  26.7s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.911, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.824, total=  26.1s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.855, total= 8.4min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.844, total=17.1min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=11.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.790, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.862, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.837, total=10.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.782, total=10.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.862, total=22.3min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.846, total=22.6min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.785, total=22.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.862, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.780, total=10.8min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.856, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.846, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.790, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.852, total=12.0min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.846, total=12.0min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.782, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.856, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.780, total=12.1min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.860, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.847, total=10.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.783, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.856, total=22.2min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.837, total=22.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.780, total=23.0min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.846, total=  26.4s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.881, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.861, total=  25.8s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.903, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.756, total=  26.3s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.904, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=  26.3s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.853, total= 8.4min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.852, total=17.1min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.846, total=11.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.783, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.852, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.847, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.783, total=10.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.860, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.837, total=22.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.780, total=23.0min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.856, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.846, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.782, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.862, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.837, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.782, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.856, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=12.0min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.790, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.862, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.846, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.790, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.852, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.846, total=10.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.782, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.862, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.847, total=22.6min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.790, total=23.0min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.850, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.848, total=  26.5s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.862, total=  26.2s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.905, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.785, total=  26.2s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.918, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=  26.0s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.881, total= 8.4min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.848, total=17.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.842, total=12.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.785, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.860, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.846, total=10.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.790, total=10.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.856, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.842, total=22.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.791, total=22.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.858, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.785, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.852, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.5min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.780, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.860, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.847, total=12.0min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.783, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.860, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.847, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.782, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.856, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.790, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.852, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=22.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.782, total=23.0min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.858, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.844, total=  26.7s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.852, total=  25.9s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.910, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.791, total=  26.1s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.919, total= 9.1min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=  26.4s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.887, total= 8.4min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=1, weights=distance, score=0.919, total=17.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.824, total=12.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.791, total=11.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.861, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.838, total=10.9min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.785, total=10.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.844, total=22.2min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.824, total=22.7min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.756, total=22.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.838, total=10.7min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.785, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.846, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.836, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.785, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.846, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.756, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=uniform, score=0.847, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.836, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.756, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.847, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.824, total=10.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.785, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.844, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.835, total=22.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.752, total=22.9min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=  25.7s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.824, total=  25.6s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.849, total=  26.2s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.855, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.838, total=  26.0s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.860, total=  26.5s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=distance, score=0.914, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.780, total=  26.0s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.913, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.842, total=  26.5s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.882, total= 8.4min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.861, total=16.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=11.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.762, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.846, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.831, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.747, total=10.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.858, total=22.4min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=22.8min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.790, total=22.9min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.862, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.842, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.791, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.858, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.3min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.749, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.847, total=11.8min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.835, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=uniform, score=0.747, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.861, total=11.7min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.831, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.747, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.846, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=uniform, score=0.836, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.752, total=10.8min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.847, total=22.4min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=22.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.791, total=22.9min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.831, total=  25.8s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=  25.8s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.837, total=  25.8s
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=uniform, score=0.853, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.847, total=  26.2s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.906, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.755, total=  26.4s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.790, total=  26.6s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=distance, score=0.919, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=  26.3s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=distance, score=0.881, total= 8.4min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.856, total=17.0min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=10, p=2, weights=uniform, score=0.838, total=11.9min
+[CV] algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=30, n_neighbors=50, p=2, weights=uniform, score=0.747, total=12.0min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.858, total=10.7min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.849, total=10.8min
+[CV] algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.756, total=10.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=5, p=2, weights=uniform, score=0.847, total=22.5min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.849, total=22.9min
+[CV] algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=auto, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.783, total=23.2min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.860, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.847, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.783, total=10.6min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.860, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.847, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.783, total=10.4min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.862, total=11.9min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.837, total=12.0min
+[CV] algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=ball_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.780, total=11.9min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=5, p=2, weights=distance, score=0.852, total=11.8min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=10, p=2, weights=distance, score=0.837, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=30, n_neighbors=50, p=2, weights=distance, score=0.783, total=12.0min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=5, p=2, weights=distance, score=0.862, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=10, p=2, weights=distance, score=0.837, total=10.9min
+[CV] algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=50, n_neighbors=50, p=2, weights=distance, score=0.780, total=10.7min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=5, p=2, weights=distance, score=0.860, total=22.3min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=10, p=2, weights=distance, score=0.846, total=22.9min
+[CV] algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance 
+[CV]  algorithm=kd_tree, leaf_size=10, n_neighbors=50, p=2, weights=distance, score=0.783, total=23.2min
+[CV] algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance 
+[CV]  algorithm=brute, leaf_size=30, n_neighbors=50, p=1, weights=distance, score=0.887, total= 9.0min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=5, p=2, weights=uniform, score=0.846, total=  26.0s
+[CV] algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=10, p=1, weights=uniform, score=0.907, total= 9.1min
+[CV] algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=50, n_neighbors=50, p=2, weights=uniform, score=0.747, total=  26.2s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=5, p=1, weights=uniform, score=0.910, total= 9.0min
+[CV] algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=10, p=2, weights=uniform, score=0.838, total=  26.5s
+[CV] algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform 
+[CV]  algorithm=brute, leaf_size=10, n_neighbors=50, p=1, weights=uniform, score=0.858, total= 8.6min
+score :  1.0
+Predicting...

@@ -2,7 +2,7 @@ import numpy as np
 from zipfile import ZipFile
 from sklearn import ensemble
 from sklearn import model_selection
-from sklearn import preprocessing, neighbors, decomposition
+from sklearn import preprocessing, neighbors, decomposition, linear_model
 
 print("Loading data...")
 
@@ -18,16 +18,18 @@ X_test = scaler.transform(X_test)
 X_valid = scaler.transform(X_valid)
 
 
-pca = decomposition.PCA(n_components=750)
+pca = decomposition.PCA(n_components=500)
 pca.fit(X)
 X = pca.transform(X)
+X_test = pca.transform(X_test)
+X_valid = pca.transform(X_valid)
 
 log_reg = linear_model.RidgeClassifier()
 
 
 param_grid = {
- 'alpha': [1.0, 0.5 ,2.0, 1.5, 0.2],
- 'tol' : [1e-3,0.1],
+ 'alpha': [2.0],
+ 'tol' : [1e-10, 1e-5, 1e-3, 1e-4,],
 }
 
 cv_log_reg = model_selection.GridSearchCV(log_reg, param_grid=param_grid, cv=10, verbose=3, n_jobs=-1)
@@ -46,7 +48,7 @@ y_valid = cv_log_reg.predict(X_valid)
 
 np.savetxt("protein_test.predict", y_test, fmt="%d")
 np.savetxt("protein_valid.predict", y_valid, fmt="%d")
-zip_obj = ZipFile('submission_knn.zip', 'w')
+zip_obj = ZipFile('submission.zip', 'w')
 zip_obj.write("protein_test.predict")
 zip_obj.write("protein_valid.predict")
 

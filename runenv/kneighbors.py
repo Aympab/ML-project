@@ -24,6 +24,7 @@ X = pca.transform(X)
 X_test = pca.transform(X_test)
 X_valid = pca.transform(X_valid)
 
+
 kn = neighbors.KNeighborsClassifier()
 
 # param_grid = {
@@ -34,7 +35,7 @@ kn = neighbors.KNeighborsClassifier()
 # }
 
 param_grid = {
- 'n_neighbors': [5],
+ 'n_neighbors': [5, 2, 10, 50],
  'weights' : ['distance'],
  'algorithm' : [ 'ball_tree'],
  'leaf_size' :[10]

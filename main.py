@@ -1,31 +1,25 @@
-import numpy as np
-from zipfile import ZipFile
-from sklearn import ensemble
-from sklearn import model_selection
-from sklearn import preprocessing, decomposition
+from utils import *
 
-print("Loading data...")
+X, y, X_test, X_valid = load_data("starting_kit/data")
+################################################################################
+##############################  MODEL  #########################################
+################################################################################
 
-X = np.loadtxt("data/protein_train.data")
-y = np.loadtxt("data/protein_train.solution")
-
-X_test = np.loadtxt("data/protein_test.data")
-X_valid = np.loadtxt("data/protein_valid.data")
-
-scaler = preprocessing.StandardScaler()
-X = scaler.fit_transform(X)
-X_test = scaler.transform(X_test)
-X_valid = scaler.transform(X_valid)
-
+<<<<<<< HEAD
 pca = decomposition.PCA(n_components=500)
 pca.fit(X)
 X = pca.transform(X)
 X_test = pca.transform(X_test)
 X_valid = pca.transform(X_valid)
+=======
+from sklearn import ensemble
+from sklearn import model_selection, metrics
+>>>>>>> 946ed9dd6e0d28fd43ca5614755cc66b27dee88e
 
-bag = ensemble.RandomForestClassifier()
+model = ensemble.BaggingClassifier()
 
 param_grid = {
+<<<<<<< HEAD
    'max_features': [0.15, 1.0, 0.5, 0.2],
    'max_depth' : [20],
    'min_weight_fraction_leaf' : [0.0],
@@ -34,25 +28,30 @@ param_grid = {
 }
 #{'criterion': 'entropy', 'max_depth': 20, 'max_features': 0.5, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100}
 cv_bagging = model_selection.GridSearchCV(bag, param_grid=param_grid, cv=10, verbose=3, n_jobs=-1)
+=======
+    'max_features': [0.5],
+    'max_samples': [0.7],
+    'n_estimators': [10],
+}
 
-#cv_bagging = model_selection.cross_validate(bag, X, y=y, cv=10, verbose=3, n_jobs=-1)
+cv_model = model_selection.GridSearchCV(model,
+                                        param_grid=param_grid,
+                                        cv=10,
+                                        verbose=3,
+                                        n_jobs=-1)
+>>>>>>> 946ed9dd6e0d28fd43ca5614755cc66b27dee88e
 
-print("Fitting model...")
 
-cv_bagging.fit(X, y)
 
-print("score : ", cv_bagging.score(X, y))
-print(cv_bagging.best_params_)
+print("score : ", cv_model.score(X, y))
+print("Best param : ", cv_model.best_params_)
 
+
+################################################################################
+##############################  MODEL  #########################################
+################################################################################
 print("Predicting...")
+cv_model.fit(X, y)
 
-y_test = cv_bagging.predict(X_test)
-y_valid = cv_bagging.predict(X_valid)
-
-np.savetxt("protein_test.predict", y_test, fmt="%d")
-np.savetxt("protein_valid.predict", y_valid, fmt="%d")
-zip_obj = ZipFile('submission.zip', 'w')
-zip_obj.write("protein_test.predict")
-zip_obj.write("protein_valid.predict")
-
-zip_obj.close()
+print("Submitting...")
+submit_model(model, X_test, X_valid)

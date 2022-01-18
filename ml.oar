@@ -1,0 +1,13 @@
+#!/bin/bash
+### nombre de cores et duree max du job
+#OAR -l /nodes=1/core=28,walltime=100:00:00
+
+#OAR -n training_model
+#OAR -O %jobid%.log
+#OAR -E %jobid%.log
+
+source ../venv/bin/activate
+
+python main.py
+
+echo "End computation"

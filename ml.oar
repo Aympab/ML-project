@@ -1,13 +1,13 @@
 #!/bin/bash
 ### nombre de cores et duree max du job
-#OAR -l /nodes=1/core=20,walltime=100:00:00
+#OAR -l /nodes=1/core=28,walltime=100:00:00
 
-#OAR -n training_pipeline
-#OAR -O %jobname%.log
-#OAR -E %jobname%.log
+#OAR -n grid_train_balanced_scoring
+#OAR -O %jobname%%jobid%.log
+#OAR -E %jobname%%jobid%.log
 
 source mlvenv/bin/activate
 
-python pipeline_stdscale.py
+python SVM.py
 
 echo "End computation"

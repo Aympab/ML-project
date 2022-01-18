@@ -25,11 +25,12 @@ pipe = Pipeline([('scaler', StandardScaler()),
                 ])
 
 grid_model = model_selection.GridSearchCV(pipe,
+                            param_grid={},
                             #param_grid = {'reduction__n_components':[0.5, 0.6]},
-                            param_grid = {'reduction__n_components':[100, 250, 400, 500, 600, 750, 900],
-                                          'reduction__kernel':['linear', 'poly', 'rbf', 'sigmoid', 'cosine', 'precomputed'],
-                                          'reduction__eigen_solver' : ['randomized']
-                                          },
+                            #param_grid = {'reduction__n_components':[100, 250, 400, 500, 600, 750, 900],
+                            #              'reduction__kernel':['linear', 'poly', 'rbf', 'sigmoid', 'cosine', 'precomputed'],
+                            #              'reduction__eigen_solver' : ['randomized']
+                            #              },
                             scoring = 'balanced_accuracy',
                             cv = 5,
                             verbose=2,

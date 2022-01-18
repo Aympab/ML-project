@@ -6,7 +6,7 @@
 #OAR -O %jobid%.log
 #OAR -E %jobid%.log
 
-source ../venv/bin/activate
+source mlvenv/bin/activate
 
 python main.py
 

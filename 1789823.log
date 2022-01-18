@@ -1,0 +1,36 @@
+Predicting...
+Fitting 10 folds for each of 1 candidates, totalling 10 fits
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Submitting...
+[CV 3/10] END max_features=0.5, max_samples=0.7, n_estimators=10;, score=0.902 total time= 2.1min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+[CV 8/10] END max_features=0.5, max_samples=0.7, n_estimators=10;, score=0.910 total time= 2.1min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+[CV 9/10] END max_features=0.5, max_samples=0.7, n_estimators=10;, score=0.911 total time= 2.1min
+[CV 1/10] END max_features=0.5, max_samples=0.7, n_estimators=10;, score=0.905 total time= 2.1min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+[CV 10/10] END max_features=0.5, max_samples=0.7, n_estimators=10;, score=0.914 total time= 2.1min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+[CV 7/10] END max_features=0.5, max_samples=0.7, n_estimators=10;, score=0.909 total time= 2.1min
+[CV 5/10] END max_features=0.5, max_samples=0.7, n_estimators=10;, score=0.905 total time= 2.2min
+[CV 2/10] END max_features=0.5, max_samples=0.7, n_estimators=10;, score=0.907 total time= 2.2min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+[CV 4/10] END max_features=0.5, max_samples=0.7, n_estimators=10;, score=0.912 total time= 2.2min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+[CV 6/10] END max_features=0.5, max_samples=0.7, n_estimators=10;, score=0.905 total time= 2.2min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/ensemble/_bagging.py:719: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+End computation

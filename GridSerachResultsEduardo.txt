@@ -1,0 +1,6 @@
+The best hyper-parameters for XGBBoost are: {'learning_rate': 0.001, 'max_depth': 5, 'n_estimators': 100}
+The best hyper-parameters for Random Forests are: {'max_depth': 5, 'n_estimators': 10}
+The best hyper-parameters for KNN are: {'n_neighbors': 2, 'p': 1}
+The best hyper-parameters for SVR are: {'C': 1, 'gamma': 0.0001, 'kernel': 'linear'}
+The optimum max_depth for Decision Tree is: {'max_depth': 4}
+The best hyper-parameters for GPR are: {'kernel': 1**2 * RBF(length_scale=10), 'n_restarts_optimizer': 5}

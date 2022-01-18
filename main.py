@@ -1,6 +1,6 @@
 from utils import *
 
-X, y, X_test, X_valid = load_data("starting_kit/data")
+X, y, X_test, X_valid = load_data("data")
 ################################################################################
 ##############################  MODEL  #########################################
 ################################################################################
@@ -23,9 +23,8 @@ cv_model = model_selection.GridSearchCV(model,
                                         n_jobs=-1)
 
 
-
-print("score : ", cv_model.score(X, y))
-print("Best param : ", cv_model.best_params_)
+#print("score : ", cv_model.score(X, y))
+#print("Best param : ", cv_model.best_params_)
 
 
 ################################################################################
@@ -35,4 +34,4 @@ print("Predicting...")
 cv_model.fit(X, y)
 
 print("Submitting...")
-submit_model(model, X_test, X_valid)
+submit_model(cv_model, X_test, X_valid)

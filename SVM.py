@@ -25,6 +25,9 @@ Xte = scaler.transform(Xte)
 #X_test = scaler.transform(X_test)
 #X_valid = scaler.transform(X_valid)
 
+
+#Add a kernelPCA
+
 model = svm.SVC()
 
 param_grid = {

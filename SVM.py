@@ -12,7 +12,7 @@ from sklearn.random_projection import GaussianRandomProjection
 from sklearn.decomposition import KernelPCA
 from scipy import stats
 
-X, y, X_test, X_valid = load_data("starting_kit/data")
+X, y, X_test, X_valid = load_data("data")
 
 Xtr, Xte, ytr, yte = model_selection.train_test_split(X, y, 
                                                       test_size=0.2, 
@@ -21,10 +21,6 @@ Xtr, Xte, ytr, yte = model_selection.train_test_split(X, y,
 scaler = preprocessing.RobustScaler()
 Xtr = scaler.fit_transform(Xtr)
 Xte = scaler.transform(Xte)
-
-#X_test = scaler.transform(X_test)
-#X_valid = scaler.transform(X_valid)
-
 
 #Add a kernelPCA
 
@@ -36,7 +32,12 @@ param_grid = {
  'decision_function_shape' : ['ovo', 'ovr']
 }
 
-grid_model = model_selection.GridSearchCV(model, param_grid=param_grid, cv=10, verbose=3, n_jobs=1)
+grid_model = model_selection.GridSearchCV(model,
+                                          param_grid=param_grid,
+                                          cv=10,
+                                          scoring = 'balanced_accuracy',
+                                          verbose=3,
+                                          n_jobs=-1)
 
 print("Fitting model...")
 

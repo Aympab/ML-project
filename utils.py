@@ -13,6 +13,7 @@ def load_data(path="/data"):
 
     return X, y, X_test, X_valid
 
+
 def submit_model(regressor, X_test, X_valid):
     
     y_test = regressor.predict(X_test)

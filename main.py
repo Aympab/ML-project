@@ -27,10 +27,12 @@ cv_model = model_selection.GridSearchCV(model,
 print("score : ", cv_model.score(X, y))
 print("Best param : ", cv_model.best_params_)
 
-cv_model.fit(X, y)
 
 ################################################################################
 ##############################  MODEL  #########################################
 ################################################################################
 print("Predicting...")
+cv_model.fit(X, y)
+
+print("Submitting...")
 submit_model(model, X_test, X_valid)

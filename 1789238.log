@@ -1,0 +1,167 @@
+Loading data...
+Fitting model...
+Fitting 10 folds for each of 16 candidates, totalling 160 fits
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.912 total time= 3.4min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.920 total time=20.5min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.913 total time= 8.7min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.917 total time= 6.1min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.912 total time= 4.4min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.902 total time= 2.8min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.912 total time=17.1min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.910 total time=12.0min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.915 total time= 7.8min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.907 total time= 3.3min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.912 total time= 2.9min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.911 total time=17.1min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.915 total time=12.0min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.912 total time= 7.9min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.910 total time= 3.3min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.908 total time= 2.8min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.908 total time= 2.0min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.910 total time=15.3min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.912 total time=11.9min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.915 total time= 7.9min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.909 total time= 3.3min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.911 total time= 2.8min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.912 total time=17.2min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.914 total time=12.1min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.917 total time= 7.8min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.903 total time= 3.3min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.912 total time= 2.8min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.914 total time= 2.0min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.909 total time=15.2min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.918 total time=12.0min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.914 total time= 7.9min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.912 total time= 3.3min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.911 total time= 3.4min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.917 total time=17.1min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.916 total time= 8.7min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.913 total time= 7.8min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.908 total time= 3.6min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.908 total time= 2.5min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.912 total time= 2.8min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.909 total time= 2.0min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.914 total time=15.4min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.916 total time=11.8min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.919 total time= 7.9min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.916 total time= 3.3min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.908 total time= 3.4min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.917 total time=17.1min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.908 total time= 8.7min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.918 total time= 7.8min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.905 total time= 3.6min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.913 total time= 2.6min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.910 total time= 3.4min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.913 total time=20.5min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.919 total time= 8.8min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.907 total time= 6.2min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.915 total time= 4.4min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.909 total time= 2.6min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.906 total time= 2.0min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.918 total time=20.4min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.911 total time=10.5min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.906 total time= 3.6min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.907 total time= 4.3min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.910 total time= 2.5min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.909 total time= 2.0min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.912 total time=20.5min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.915 total time=10.4min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.913 total time= 3.7min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.913 total time= 4.4min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.907 total time= 2.5min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.905 total time= 2.0min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.921 total time=20.6min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.914 total time=10.4min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.906 total time= 3.7min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.911 total time= 4.4min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.905 total time= 2.8min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.921 total time=17.0min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.916 total time=15.2min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.911 total time= 6.1min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.908 total time= 2.5min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.905 total time= 2.5min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.905 total time= 2.0min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.918 total time=20.6min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.909 total time=10.5min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.911 total time= 3.6min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.904 total time= 4.4min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.903 total time= 3.4min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.912 total time=20.6min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.914 total time=10.4min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.918 total time= 6.1min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.909 total time= 3.3min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.908 total time= 2.8min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.914 total time=16.9min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.913 total time=15.3min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.918 total time= 6.1min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.909 total time= 2.6min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.909 total time= 2.5min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.909 total time= 2.5min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.918 total time=15.4min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.917 total time= 8.7min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.917 total time=10.4min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.915 total time= 4.4min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.913 total time= 3.4min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.918 total time=17.0min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.914 total time= 8.7min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.919 total time=10.5min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.913 total time= 4.4min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.907 total time= 3.4min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.913 total time=20.6min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.917 total time=10.5min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.918 total time= 6.1min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.914 total time= 3.3min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.906 total time= 2.8min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.914 total time=17.1min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.920 total time=11.9min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.915 total time= 7.8min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.909 total time= 4.4min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.905 total time= 3.4min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.913 total time=17.1min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.917 total time= 8.7min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.913 total time=10.4min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.914 total time= 4.4min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.911 total time= 2.6min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.902 total time= 2.0min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.920 total time=15.5min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.911 total time=12.0min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.914 total time= 6.0min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.914 total time= 3.6min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.910 total time= 2.5min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.907 total time= 2.8min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.913 total time= 2.0min
+[CV 4/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.913 total time=15.3min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.917 total time=12.0min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.918 total time= 6.1min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.915 total time= 3.7min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.904 total time= 2.5min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.900 total time= 3.4min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.913 total time=20.4min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.922 total time= 8.8min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.911 total time= 6.1min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.907 total time= 3.6min
+[CV 7/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.914 total time= 2.5min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.907 total time= 3.4min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.913 total time=20.4min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.919 total time= 8.8min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.914 total time= 6.1min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.913 total time= 3.6min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.912 total time= 2.5min
+[CV 6/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.900 total time= 2.5min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.911 total time= 2.5min
+[CV 8/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.916 total time=15.4min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=100;, score=0.912 total time= 8.7min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=120;, score=0.919 total time=10.4min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.911 total time= 3.3min
+[CV 9/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.910 total time= 2.4min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.904 total time= 2.6min
+[CV 5/10] END criterion=entropy, max_depth=20, max_features=0.15, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.908 total time= 2.0min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.914 total time=15.3min
+[CV 1/10] END criterion=entropy, max_depth=20, max_features=1.0, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.912 total time=11.9min
+[CV 3/10] END criterion=entropy, max_depth=20, max_features=0.5, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.911 total time= 7.9min
+[CV 2/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=90;, score=0.914 total time= 3.3min
+[CV 10/10] END criterion=entropy, max_depth=20, max_features=0.2, min_weight_fraction_leaf=0.0, n_estimators=70;, score=0.914 total time= 2.4min
+score :  0.9994916977295832
+{'criterion': 'entropy', 'max_depth': 20, 'max_features': 0.5, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100}
+Predicting...
+End computation

@@ -17,7 +17,7 @@ X = scaler.fit_transform(X)
 X_test = scaler.transform(X_test)
 X_valid = scaler.transform(X_valid)
 
-pca = decomposition.PCA(n_components=100)
+pca = decomposition.PCA(n_components=500)
 pca.fit(X)
 X = pca.transform(X)
 X_test = pca.transform(X_test)
@@ -29,10 +29,10 @@ param_grid = {
    'max_features': [0.15, 1.0, 0.5, 0.2],
    'max_depth' : [20],
    'min_weight_fraction_leaf' : [0.0],
-   'n_estimators' : [100, 120, 90, 70],
+   'n_estimators' : [100],
    'criterion' : ['entropy'],
 }
-
+#{'criterion': 'entropy', 'max_depth': 20, 'max_features': 0.5, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100}
 cv_bagging = model_selection.GridSearchCV(bag, param_grid=param_grid, cv=10, verbose=3, n_jobs=-1)
 
 #cv_bagging = model_selection.cross_validate(bag, X, y=y, cv=10, verbose=3, n_jobs=-1)

@@ -18,35 +18,31 @@ X_test = scaler.transform(X_test)
 X_valid = scaler.transform(X_valid)
 
 
-pca = decomposition.PCA(n_components=20)
+pca = decomposition.PCA(n_components=750)
 pca.fit(X)
 X = pca.transform(X)
 
-kn = neighbors.KNeighborsClassifier()
+log_reg = linear_model.RidgeClassifier()
+
 
 param_grid = {
- 'n_neighbors': [5, 2, 10, 50],
- 'weights' : ['distance'],
- 'algorithm' : [ 'ball_tree', 'kd_tree'],
- 'leaf_size' :[10, 20, 50, 60, 70, 80]
+ 'alpha': [1.0, 0.5 ,2.0, 1.5, 0.2],
+ 'tol' : [1e-3,0.1],
 }
 
-# algorithm=ball_tree, leaf_size=50, n_neighbors=5, p=1, weights=distance, score=0.922, total=10.3min
+cv_log_reg = model_selection.GridSearchCV(log_reg, param_grid=param_grid, cv=10, verbose=3, n_jobs=-1)
 
-cv_knn = model_selection.GridSearchCV(kn, param_grid=param_grid, cv=7, verbose=3, n_jobs=-1)
-
-#cv_knn = model_selection.cross_validate(bag, X, y=y, cv=10, verbose=3, n_jobs=-1)
 
 print("Fitting model...")
 
-cv_knn.fit(X, y)
+cv_log_reg.fit(X, y)
 
-print("score : ", cv_knn.score(X, y))
-print(cv_knn.best_params_)
+print("score : ", cv_log_reg.score(X, y))
+print(cv_log_reg.best_params_)
 print("Predicting...")
 
-y_test = cv_knn.predict(X_test)
-y_valid = cv_knn.predict(X_valid)
+y_test = cv_log_reg.predict(X_test)
+y_valid = cv_log_reg.predict(X_valid)
 
 np.savetxt("protein_test.predict", y_test, fmt="%d")
 np.savetxt("protein_valid.predict", y_valid, fmt="%d")

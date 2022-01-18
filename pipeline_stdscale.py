@@ -14,6 +14,7 @@ X, y, X_test, X_valid = load_data("data")
 Xtr, Xte, ytr, yte = model_selection.train_test_split(X, y, 
                                                       test_size=0.2, 
                                                       random_state=0)
+print("Data loaded")
 
 pipe = Pipeline([('scaler', StandardScaler()),
                 ('reduction', KernelPCA()),
@@ -35,6 +36,10 @@ grid_model = model_selection.GridSearchCV(pipe,
                             n_jobs=-1)
 
 
+print("Grid search OK !")
+
 grid_model.fit(Xtr, ytr, )
 print(grid_model.score(Xte, yte))
 print(grid_model.best_params_)
+
+print("DONE")

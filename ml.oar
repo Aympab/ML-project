@@ -1,14 +1,13 @@
 #!/bin/bash
 ### nombre de cores et duree max du job
-#OAR -l core=28,walltime=60:00:00
-#OAR -p host='n-in79'
-## -l core=80,walltime=00:00:30 -S ./run.oar
+#OAR -l /nodes=1/core=28,walltime=100:00:00
 
-#OAR -n trainingGauss
+#OAR -n training_model
 #OAR -O %jobid%.log
 #OAR -E %jobid%.log
 
-python GaussianProc.py
+source ../venv/bin/activate
 
+python main.py
 
 echo "End computation"

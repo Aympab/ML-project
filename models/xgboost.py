@@ -1,5 +1,5 @@
 import pandas as pd
-import xgboost as xgb
+import models.models.xgboost as xgb
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.decomposition import PCA

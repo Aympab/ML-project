@@ -1,6 +1,6 @@
 data/
 starting_kit/
-submission.zip
+submission*
 protein_test.predict
 protein_valid.predict
 protein_full.data

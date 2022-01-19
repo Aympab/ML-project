@@ -14,26 +14,30 @@ from scipy import stats
 
 X, y, X_test, X_valid = load_data("data")
 
-Xtr, Xte, ytr, yte = model_selection.train_test_split(X, y, 
-                                                      test_size=0.2, 
-                                                      random_state=0)
+# Xtr, Xte, ytr, yte = model_selection.train_test_split(X, y, 
+#                                                       test_size=0.2, 
+#                                                       random_state=0)
 
 scaler = preprocessing.RobustScaler()
-Xtr = scaler.fit_transform(Xtr)
-Xte = scaler.transform(Xte)
+X = scaler.fit_transform(X)
+X_test = scaler.transform(X_test)
+X_valid = scaler.transform(X_valid)
 
-#Add a kernelPCA
+transformer = KernelPCA(n_components=100, kernel='poly')
+X = transformer.fit_transform(X)
+X_test = transformer.transform(X_test)
+X_valid = transformer.transform(X_valid)
 
 model = svm.SVC()
 
-param_grid = {
- 'kernel': ['linear', 'poly', 'rbf', 'sigmoid', 'precomputed'],
- 'gamma' : ['scale', 'auto'],
- 'decision_function_shape' : ['ovo', 'ovr']
-}
+# param_grid = {
+#  'kernel': ['linear', 'poly', 'rbf', 'sigmoid', 'precomputed'],
+#  'gamma' : ['scale', 'auto'],
+#  'decision_function_shape' : ['ovo', 'ovr']
+# }
 
 grid_model = model_selection.GridSearchCV(model,
-                                          param_grid=param_grid,
+                                          param_grid={},
                                           cv=10,
                                           scoring = 'balanced_accuracy',
                                           verbose=3,
@@ -41,6 +45,12 @@ grid_model = model_selection.GridSearchCV(model,
 
 print("Fitting model...")
 
-grid_model.fit(Xtr, np.ravel(ytr))
-print(grid_model.score(Xte, yte))
+grid_model.fit(X, y)
+print(grid_model.score(X, y))
 print(grid_model.best_params_)
+print("Submitting...")
+submit_model(grid_model, X_test, X_valid)
+
+# grid_model.fit(Xtr, np.ravel(ytr))
+# print(grid_model.score(Xte, yte))
+# print(grid_model.best_params_)

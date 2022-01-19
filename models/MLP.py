@@ -19,11 +19,11 @@ X_valid = scaler.transform(X_valid)
 
 mlp = neural_network.MLPClassifier()
 
-param_grid = {
- 'activation': ['identity', 'logistic', 'relu', 'tanh'],
- 'learning_rate' : ['constant', 'adaptive', 'invscaling'],
- 'alpha' : [0.0001, 0.01],
-}
+# param_grid = {
+#  'activation': ['identity', 'logistic', 'relu', 'tanh'],
+#  'learning_rate' : ['constant', 'adaptive', 'invscaling'],
+#  'alpha' : [0.0001, 0.01],
+# }
 
 #param_grid = {
 #    'max_features': [0.15],
@@ -33,7 +33,11 @@ param_grid = {
 #    'criterion' : ['entropy'],
 #}
 
-cv_mlp = model_selection.GridSearchCV(mlp, param_grid=param_grid, cv=10, verbose=3, n_jobs=-1)
+cv_mlp = model_selection.GridSearchCV(mlp,
+                                      param_grid={},
+                                      cv=3,
+                                      verbose=3,
+                                      n_jobs=1)
 
 print("Fitting model...")
 

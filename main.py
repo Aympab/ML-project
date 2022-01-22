@@ -19,8 +19,8 @@ X, y, X_test, X_valid = load_data("data")
 ################################################################################
 print("Scaling...")
 # scaler = StandardScaler()
-# scaler = RobustScaler()
-scaler = QuantileTransformer(n_quantiles=500)
+scaler = RobustScaler()
+# scaler = QuantileTransformer(n_quantiles=500)
 X = scaler.fit_transform(X)
 X_test = scaler.transform(X_test)
 X_valid = scaler.transform(X_valid)
@@ -29,9 +29,9 @@ X_valid = scaler.transform(X_valid)
 ##############################  REDUCTION  #####################################
 ################################################################################
 print("Reduction...")
-transformer = FeatureAgglomeration(n_clusters=650)
+transformer = FeatureAgglomeration(n_clusters=200) #n_cluster=650
 # transformer = GaussianRandomProjection(n_components=800)
-transformer = KernelPCA(kernel='poly' ,n_components=423)
+# transformer = KernelPCA(kernel='poly' ,n_components=423)
 X = transformer.fit_transform(X)
 X_test = transformer.transform(X_test)
 X_valid = transformer.transform(X_valid)
@@ -42,26 +42,26 @@ X_valid = transformer.transform(X_valid)
 mlp = MLPClassifier(activation='logistic', learning_rate='adaptive', alpha=0.01)
 
 model_dict = {
-          'QMLP'    : mlp,
+          'MLP'    : mlp,
           
         #   'RForest' : RandomForestClassifier(max_depth=50,
         #                                      n_estimators=200,
         #                                      max_features=0.15,
         #                                      n_jobs=-1),
           
-          'QKNN'     : KNeighborsClassifier(algorithm='kd_tree',
+          'KNN'     : KNeighborsClassifier(algorithm='kd_tree',
                                            leaf_size=50,
                                            n_neighbors=5,
                                            p=1,
                                            weights='distance',
                                            n_jobs=-1),
           
-          'QXGBoost' : xgb.XGBClassifier(learning_rate=0.1,
+          'XGBoost' : xgb.XGBClassifier(learning_rate=0.1,
                                         max_depth=10,
                                         n_estimators=300,
                                         n_jobs=-1),
           
-          'QSelfTrainC' : SelfTrainingClassifier(mlp)
+          'SelfTrainC' : SelfTrainingClassifier(mlp)
           }
 
 ################################################################################

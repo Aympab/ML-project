@@ -8,6 +8,7 @@ from sklearn.cluster import FeatureAgglomeration
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import QuantileTransformer, RobustScaler, StandardScaler
+from sklearn.model_selection import cross_val_score
 from utils import *
 
 print("###BEGIN###")
@@ -71,17 +72,24 @@ for m_name, m_model in model_dict.items():
     print("MODEL : ", m_name)
     
     try:
-        print(" >>> Fitting...")
+        print("   >>> Fitting...")
         m_model.fit(X, np.ravel(y))
 
-        print(" >>> Submitting...")
+        print("   >>> Submitting...")
         submit_model(m_model, X_test, X_valid, name=m_name)
 
+        scores = cross_val_score(m_model, X, y,
+                        n_jobs=-1,
+                        scoring='balanced_accuracy',
+                        cv=3)
+        
+        print("   >>> Scores :", scores)
+        
     except Exception as e:
         print(" /!\ An error occured : ", e)
         continue
     
-    print(">>> Model submitted !")
+    print("   >>> Model submitted !")
     
 print("###END###")
 

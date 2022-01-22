@@ -23,6 +23,9 @@ from sklearn.preprocessing import RobustScaler
 from sklearn.cluster import FeatureAgglomeration
 from sklearn.neural_network import MLPClassifier
 from utils import *
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.decomposition import KernelPCA
+
 
 # X, y = load_digits(return_X_y=True)
 # X, y = X[subset_mask], y[subset_mask]
@@ -33,31 +36,31 @@ X = scaler.fit_transform(X)
 
 # subset_mask = np.isin(y, [0, 1])  # binary classification: 1 vs 2X
 
-transformer = FeatureAgglomeration(n_clusters=650)
-X = transformer.fit_transform(X)
+#transformer = FeatureAgglomeration(n_clusters=650)
+#X = transformer.fit_transform(X)
+
+#estimator = MLPClassifier()
+#estimator = MLPClassifier(activation='logistic', learning_rate='adaptive', alpha=0.01)
+estimator = FeatureAgglomeration()
 
 
-estimator = MLPClassifier(activation='logistic', learning_rate='adaptive', alpha=0.01)
-
-
-
-param_range = np.logspace(-6, -1, 5)
+param_range = np.linspace(10, 950, 50)
 train_scores, test_scores = validation_curve(
     estimator,
     X,
-    y,
-    param_name="gamma",
+    np.ravel(y),
+    param_name="n_clusters",
     param_range=param_range,
-    scoring="accuracy",
-    n_jobs=2,
+    scoring="balanced_accuracy",
+    n_jobs=-1,
 )
 train_scores_mean = np.mean(train_scores, axis=1)
 train_scores_std = np.std(train_scores, axis=1)
 test_scores_mean = np.mean(test_scores, axis=1)
 test_scores_std = np.std(test_scores, axis=1)
 
-plt.title("Validation Curve with SVM")
-plt.xlabel(r"$\gamma$")
+plt.title("Validation Curve")
+plt.xlabel("n_components")
 plt.ylabel("Score")
 plt.ylim(0.0, 1.1)
 lw = 2

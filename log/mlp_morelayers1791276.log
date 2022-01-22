@@ -1,0 +1,23 @@
+Fitting model...
+Fitting 5 folds for each of 1 candidates, totalling 5 fits
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+0.8954228210764773
+{'activation': 'tanh', 'hidden_layer_sizes': (200,), 'learning_rate': 'adaptive'}
+Submitting...
+[CV 3/5] END activation=tanh, hidden_layer_sizes=(200,), learning_rate=adaptive;, score=0.834 total time= 3.9min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 2/5] END activation=tanh, hidden_layer_sizes=(200,), learning_rate=adaptive;, score=0.843 total time= 3.9min
+[CV 1/5] END activation=tanh, hidden_layer_sizes=(200,), learning_rate=adaptive;, score=0.844 total time= 3.9min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 5/5] END activation=tanh, hidden_layer_sizes=(200,), learning_rate=adaptive;, score=0.856 total time= 3.9min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 4/5] END activation=tanh, hidden_layer_sizes=(200,), learning_rate=adaptive;, score=0.859 total time= 3.9min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+End computation

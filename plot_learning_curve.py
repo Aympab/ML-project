@@ -184,10 +184,10 @@ def plot_learning_curve(
 
 fig, axes = plt.subplots(3, 2, figsize=(10, 15))
 
-X, y, X_test, X_valid = load_data("starting_kit/data") 
+X, y, X_test, X_valid = load_data("data") 
 scaler = RobustScaler()
 X = scaler.fit_transform(X)
-
+y = np.ravel(y)
 
 transformer = FeatureAgglomeration(n_clusters=650)
 X = transformer.fit_transform(X)
@@ -203,7 +203,9 @@ plot_learning_curve(
     estimator, title, X, y, axes=axes[:, 0], ylim=(0.7, 1.01), cv=cv, n_jobs=-1
 )
 
-title = r"Learning Curves (SVM, RBF kernel, $\gamma=0.001$)"
+plt.savefig('learning_curve')
+
+title = r"Learning Curves KNN"
 # SVC is more expensive so we do a lower number of CV iterations:
 cv = ShuffleSplit(n_splits=5, test_size=0.2, random_state=0)
 

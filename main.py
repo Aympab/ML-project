@@ -1,11 +1,13 @@
 import numpy as np
-from sklearn.semi_supervised import SelfTrainingClassifier
 import xgboost as xgb
+from sklearn.decomposition import KernelPCA
+from sklearn.random_projection import GaussianRandomProjection
+from sklearn.semi_supervised import SelfTrainingClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cluster import FeatureAgglomeration
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.preprocessing import RobustScaler
+from sklearn.preprocessing import QuantileTransformer, RobustScaler, StandardScaler
 from utils import *
 
 print("###BEGIN###")
@@ -16,7 +18,9 @@ X, y, X_test, X_valid = load_data("data")
 ##############################  SCALING  #######################################
 ################################################################################
 print("Scaling...")
-scaler = RobustScaler()
+# scaler = StandardScaler()
+# scaler = RobustScaler()
+scaler = QuantileTransformer()
 X = scaler.fit_transform(X)
 X_test = scaler.transform(X_test)
 X_valid = scaler.transform(X_valid)
@@ -25,7 +29,9 @@ X_valid = scaler.transform(X_valid)
 ##############################  REDUCTION  #####################################
 ################################################################################
 print("Reduction...")
-transformer = FeatureAgglomeration(n_clusters=600)
+transformer = FeatureAgglomeration(n_clusters=650)
+# transformer = GaussianRandomProjection(n_components=800)
+# transformer = KernelPCA(kernel='poly' ,n_components=423)
 X = transformer.fit_transform(X)
 X_test = transformer.transform(X_test)
 X_valid = transformer.transform(X_valid)
@@ -33,35 +39,29 @@ X_valid = transformer.transform(X_valid)
 ################################################################################
 ##############################  MODELS  ########################################
 ################################################################################
-mlp1 = MLPClassifier(activation='tanh', learning_rate='adaptive')
+mlp = MLPClassifier(activation='logistic', learning_rate='adaptive', alpha=0.01)
 
 model_dict = {
-          'MLP1'    : mlp1,
-           
-          'MLP2'    : MLPClassifier(activation='logistic',
-                                    learning_rate='adaptive',
-                                    alpha=0.01),
+          'MLP'    : mlp,
           
-          'RForest1' : RandomForestClassifier(max_depth=50,
+          'RForest' : RandomForestClassifier(max_depth=50,
                                              n_estimators=200,
                                              max_features=0.15,
-                                             n_jobs=-1),
-          
-          'RForest2' : RandomForestClassifier(max_depth=50,
-                                             n_estimators=200,
                                              n_jobs=-1),
           
           'KNN'     : KNeighborsClassifier(algorithm='kd_tree',
                                            leaf_size=50,
                                            n_neighbors=5,
                                            p=1,
-                                           weights='distance'),
+                                           weights='distance',
+                                           n_jobs=-1),
           
           'XGBoost' : xgb.XGBClassifier(learning_rate=0.1,
                                         max_depth=10,
-                                        n_estimators=300),
+                                        n_estimators=300,
+                                        n_jobs=-1),
           
-          'SelfTrainC' : SelfTrainingClassifier(mlp1)
+          'SelfTrainC' : SelfTrainingClassifier(mlp)
           }
 
 ################################################################################

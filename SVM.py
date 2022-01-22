@@ -37,7 +37,10 @@ model = svm.SVC()
 # }
 
 grid_model = model_selection.GridSearchCV(model,
-                                          param_grid={},
+                                          param_grid={
+                                              #'kernel ': ['poly'],
+                                              #'degree' : [3, 5],
+                                              },
                                           cv=10,
                                           scoring = 'balanced_accuracy',
                                           verbose=3,

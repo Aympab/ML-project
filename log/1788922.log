@@ -1,3 +1,0 @@
-[Parallel(n_jobs=-1)]: Using backend LokyBackend with 28 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  72 tasks      | elapsed:  8.3min
-[Parallel(n_jobs=-1)]: Done 240 out of 240 | elapsed: 17.4min finished

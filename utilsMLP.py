@@ -21,7 +21,7 @@ def submit_model(regressor, X_test, X_valid):
     
     np.savetxt("protein_test.predict", y_test, fmt="%d")
     np.savetxt("protein_valid.predict", y_valid, fmt="%d")
-    zip_obj = ZipFile('submission.zip', 'w')
+    zip_obj = ZipFile('submissionMLP.zip', 'w')
     zip_obj.write("protein_test.predict")
     zip_obj.write("protein_valid.predict")
     

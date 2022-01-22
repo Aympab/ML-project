@@ -1,6 +1,6 @@
 from sklearn import svm
 from random import uniform
-from utils import *
+from utilsMLP import *
 from sklearn import cluster
 from sklearn.pipeline import Pipeline
 from sklearn import model_selection, neural_network
@@ -23,7 +23,7 @@ X = scaler.fit_transform(X)
 X_test = scaler.transform(X_test)
 X_valid = scaler.transform(X_valid)
 
-transformer = KernelPCA(n_components=300, kernel='poly')
+transformer = KernelPCA(n_components=300, kernel='poly', degree=5)
 X = transformer.fit_transform(X)
 X_test = transformer.transform(X_test)
 X_valid = transformer.transform(X_valid)
@@ -37,16 +37,20 @@ model = neural_network.MLPClassifier()
 # }
 
 grid_model = model_selection.GridSearchCV(model,
-                                          param_grid={},
-                                          cv=3,
+                                          param_grid={
+                                              'activation':['tanh'],
+                                              'learning_rate':['adaptive'],
+                                              'hidden_layer_sizes':[(200,)]
+                                              },
+                                          cv=5,
                                           scoring = 'balanced_accuracy',
                                           verbose=3,
-                                          n_jobs=1)
+                                          n_jobs=-1)
 
 print("Fitting model...")
 
 
-grid_model.fit(X, y)
+grid_model.fit(X, np.ravel(y))
 print(grid_model.score(X, y))
 print(grid_model.best_params_)
 print("Submitting...")

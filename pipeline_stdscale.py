@@ -25,6 +25,7 @@ pipe = Pipeline([('scaler', StandardScaler()),
                 ])
 
 grid_model = model_selection.GridSearchCV(pipe,
+                            #param_grid={},
                             #param_grid = {'reduction__n_components':[0.5, 0.6]},
                             param_grid = {'reduction__n_components':[250, 400, 500, 600, 750],
                                           'reduction__kernel':['poly', 'cosine'],

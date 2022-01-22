@@ -1,0 +1,38 @@
+Fitting model...
+Fitting 10 folds for each of 1 candidates, totalling 10 fits
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+0.8821456048485776
+{'activation': 'tanh', 'learning_rate': 'adaptive'}
+Submitting...
+[CV 5/10] END activation=tanh, learning_rate=adaptive;, score=0.862 total time= 2.1min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 8/10] END activation=tanh, learning_rate=adaptive;, score=0.845 total time= 2.1min
+[CV 7/10] END activation=tanh, learning_rate=adaptive;, score=0.871 total time= 2.1min
+[CV 9/10] END activation=tanh, learning_rate=adaptive;, score=0.867 total time= 2.1min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 1/10] END activation=tanh, learning_rate=adaptive;, score=0.785 total time= 2.1min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 6/10] END activation=tanh, learning_rate=adaptive;, score=0.820 total time= 2.1min
+[CV 4/10] END activation=tanh, learning_rate=adaptive;, score=0.853 total time= 2.1min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV 10/10] END activation=tanh, learning_rate=adaptive;, score=0.833 total time= 2.1min
+[CV 2/10] END activation=tanh, learning_rate=adaptive;, score=0.836 total time= 2.1min
+[CV 3/10] END activation=tanh, learning_rate=adaptive;, score=0.854 total time= 2.1min
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/home/gext/aymeric.millan/git_sophia/ML-project/mlvenv/lib/python3.8/site-packages/sklearn/neural_network/_multilayer_perceptron.py:692: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (200) reached and the optimization hasn't converged yet.
+  warnings.warn(
+End computation

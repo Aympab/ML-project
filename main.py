@@ -33,19 +33,23 @@ X_valid = transformer.transform(X_valid)
 ################################################################################
 ##############################  MODELS  ########################################
 ################################################################################
-model_dict = {'MLP1'    : MLPClassifier(activation='tanh',
-                                    learning_rate='adaptive'),
-          
+mlp1 = MLPClassifier(activation='tanh', learning_rate='adaptive')
+
+model_dict = {
+          'MLP1'    : mlp1,
+           
           'MLP2'    : MLPClassifier(activation='logistic',
                                     learning_rate='adaptive',
                                     alpha=0.01),
           
           'RForest1' : RandomForestClassifier(max_depth=50,
                                              n_estimators=200,
-                                             max_features=0.15),
+                                             max_features=0.15,
+                                             n_jobs=-1),
           
           'RForest2' : RandomForestClassifier(max_depth=50,
-                                             n_estimators=200),
+                                             n_estimators=200,
+                                             n_jobs=-1),
           
           'KNN'     : KNeighborsClassifier(algorithm='kd_tree',
                                            leaf_size=50,
@@ -57,10 +61,7 @@ model_dict = {'MLP1'    : MLPClassifier(activation='tanh',
                                         max_depth=10,
                                         n_estimators=300),
           
-          'SelfTrainC' : SelfTrainingClassifier(
-                                    MLPClassifier(activation='tanh',
-                                                  learning_rate='adaptive')
-                                    )
+          'SelfTrainC' : SelfTrainingClassifier(mlp1)
           }
 
 ################################################################################

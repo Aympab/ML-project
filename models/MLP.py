@@ -1,61 +1,57 @@
-import numpy as np
-from zipfile import ZipFile
-from sklearn import ensemble
-from sklearn import model_selection
-from sklearn import preprocessing, neighbors, neural_network
+from sklearn import svm
+from random import uniform
+from utilsMLP import *
+from sklearn import cluster
+from sklearn.pipeline import Pipeline
+from sklearn import model_selection, neural_network
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import RobustScaler
+from sklearn.decomposition import PCA
+from sklearn.random_projection import GaussianRandomProjection
+from sklearn.decomposition import KernelPCA
+from scipy import stats
 
-print("Loading data...")
+X, y, X_test, X_valid = load_data("data")
 
-X = np.loadtxt("data/protein_train.data")
-y = np.loadtxt("data/protein_train.solution")
+# Xtr, Xte, ytr, yte = model_selection.train_test_split(X, y, 
+#                                                       test_size=0.2, 
+#                                                       random_state=0)
 
-X_test = np.loadtxt("data/protein_test.data")
-X_valid = np.loadtxt("data/protein_valid.data")
-
-scaler = preprocessing.StandardScaler()
+scaler = preprocessing.RobustScaler()
 X = scaler.fit_transform(X)
 X_test = scaler.transform(X_test)
 X_valid = scaler.transform(X_valid)
 
-mlp = neural_network.MLPClassifier()
+transformer = KernelPCA(n_components=300, kernel='poly', degree=5)
+X = transformer.fit_transform(X)
+X_test = transformer.transform(X_test)
+X_valid = transformer.transform(X_valid)
+
+model = neural_network.MLPClassifier()
 
 # param_grid = {
-#  'activation': ['identity', 'logistic', 'relu', 'tanh'],
-#  'learning_rate' : ['constant', 'adaptive', 'invscaling'],
-#  'alpha' : [0.0001, 0.01],
+#  'kernel': ['linear', 'poly', 'rbf', 'sigmoid', 'precomputed'],
+#  'gamma' : ['scale', 'auto'],
+#  'decision_function_shape' : ['ovo', 'ovr']
 # }
 
-#param_grid = {
-#    'max_features': [0.15],
-#    'max_depth' : [25],
-#    'min_weight_fraction_leaf' : [0.1],
-#    'n_estimators' : [150],
-#    'criterion' : ['entropy'],
-#}
-
-cv_mlp = model_selection.GridSearchCV(mlp,
-                                      param_grid={},
-                                      cv=3,
-                                      verbose=3,
-                                      n_jobs=1)
+grid_model = model_selection.GridSearchCV(model,
+                                          param_grid={
+                                              'activation':['tanh'],
+                                              'learning_rate':['adaptive'],
+                                              'hidden_layer_sizes':[(200,)]
+                                              },
+                                          cv=5,
+                                          scoring = 'balanced_accuracy',
+                                          verbose=3,
+                                          n_jobs=-1)
 
 print("Fitting model...")
 
 
-cv_mlp.fit(X, y)
-
-print("score : ", cv_mlp.score(X, y))
-print(cv_mlp.best_params_)
-
-print("Predicting...")
-
-y_test = cv_mlp.predict(X_test)
-y_valid = cv_mlp.predict(X_valid)
-
-np.savetxt("mlp_protein_test.predict", y_test, fmt="%d")
-np.savetxt("mlp_protein_valid.predict", y_valid, fmt="%d")
-zip_obj = ZipFile('submission_mlp.zip', 'w')
-zip_obj.write("mlp_protein_test.predict")
-zip_obj.write("mlp_protein_valid.predict")
-
-zip_obj.close()
+grid_model.fit(X, np.ravel(y))
+print(grid_model.score(X, y))
+print(grid_model.best_params_)
+print("Submitting...")
+submit_model(grid_model, X_test, X_valid)

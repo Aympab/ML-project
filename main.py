@@ -30,7 +30,7 @@ X_valid = scaler.transform(X_valid)
 ##############################  REDUCTION  #####################################
 ################################################################################
 print("Reduction...")
-transformer = FeatureAgglomeration(n_cluster=650)
+transformer = FeatureAgglomeration(n_clusters=650)
 # transformer = GaussianRandomProjection(n_components=800)
 # transformer = KernelPCA(kernel='poly' ,n_components=423)
 X = transformer.fit_transform(X)

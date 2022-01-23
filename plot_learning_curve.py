@@ -184,7 +184,7 @@ def plot_learning_curve(
 
 fig, axes = plt.subplots(3, 2, figsize=(10, 15))
 
-X, y, X_test, X_valid = load_data("data") 
+X, y, X_test, X_valid = load_data("starting_kit/data") 
 scaler = RobustScaler()
 X = scaler.fit_transform(X)
 y = np.ravel(y)
@@ -200,7 +200,7 @@ title = "Learning Curves MLP"
 cv = ShuffleSplit(n_splits=50, test_size=0.2, random_state=0)
 
 plot_learning_curve(
-    estimator, title, X, y, axes=axes[:, 0], ylim=(0.7, 1.01), cv=cv, n_jobs=-1
+    estimator, title, X, y, axes=axes[:, 0], ylim=(0.7, 1.01), cv=cv, n_jobs=1
 )
 
 plt.savefig('learning_curve')
@@ -217,7 +217,7 @@ estimator = KNeighborsClassifier(algorithm='kd_tree',
                                            n_jobs=-1),
 
 plot_learning_curve(
-    estimator, title, X, y, axes=axes[:, 1], ylim=(0.7, 1.01), cv=cv, n_jobs=-1
+    estimator, title, X, y, axes=axes[:, 1], ylim=(0.7, 1.01), cv=cv, n_jobs=1
 )
 
 plt.savefig('learning_curves.png')

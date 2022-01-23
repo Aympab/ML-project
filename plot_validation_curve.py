@@ -25,14 +25,16 @@ from sklearn.neural_network import MLPClassifier
 from utils import *
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.decomposition import KernelPCA
+from sklearn.model_selection import cross_val_score
+from sklearn.pipeline import Pipeline
 
 
 # X, y = load_digits(return_X_y=True)
 # X, y = X[subset_mask], y[subset_mask]
 
 X, y, X_test, X_valid = load_data("data") 
-scaler = RobustScaler()
-X = scaler.fit_transform(X)
+# scaler = RobustScaler()
+# X = scaler.fit_transform(X)
 
 # subset_mask = np.isin(y, [0, 1])  # binary classification: 1 vs 2X
 
@@ -41,15 +43,25 @@ X = scaler.fit_transform(X)
 
 #estimator = MLPClassifier()
 #estimator = MLPClassifier(activation='logistic', learning_rate='adaptive', alpha=0.01)
-estimator = FeatureAgglomeration()
+
+#scaler = FeatureAgglomeration()
+
+pipe = Pipeline([('scaler', RobustScaler()),
+                 ('reduction', KernelPCA(kernel='linear')),
+                 ('simple_tree', KNeighborsClassifier(algorithm='brute',
+                                                      n_neighbors=10,
+                                                      p=1))
+                            ])
 
 
-param_range = np.linspace(10, 950, 50)
+param_range = np.linspace(10, 950, 10)
+
 train_scores, test_scores = validation_curve(
-    estimator,
+    pipe,
     X,
     np.ravel(y),
-    param_name="n_clusters",
+    cv=4,
+    param_name="reduction__n_components",
     param_range=param_range,
     scoring="balanced_accuracy",
     n_jobs=-1,

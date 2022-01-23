@@ -10,6 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import QuantileTransformer, RobustScaler, StandardScaler
 from sklearn.model_selection import cross_val_score
 from utils import *
+from sklearn.gaussian_process import GaussianProcessClassifier
 
 print("###BEGIN###")
 print("Loading data...")
@@ -30,7 +31,7 @@ X_valid = scaler.transform(X_valid)
 ##############################  REDUCTION  #####################################
 ################################################################################
 print("Reduction...")
-transformer = FeatureAgglomeration(n_clusters=650)
+transformer = FeatureAgglomeration(n_clusters=600)
 # transformer = GaussianRandomProjection(n_components=800)
 # transformer = KernelPCA(kernel='poly' ,n_components=423)
 X = transformer.fit_transform(X)
@@ -41,28 +42,30 @@ X_valid = transformer.transform(X_valid)
 ##############################  MODELS  ########################################
 ################################################################################
 mlp = MLPClassifier(activation='logistic', learning_rate='adaptive', alpha=0.01)
+gauss = GaussianProcessClassifier()
 
 model_dict = {
-          'MLP'    : mlp,
+        'Gauss' : gauss,
+        #   'MLP'    : mlp,
           
-        #   'RForest' : RandomForestClassifier(max_depth=50,
-        #                                      n_estimators=200,
-        #                                      max_features=0.15,
-        #                                      n_jobs=-1),
+        # #   'RForest' : RandomForestClassifier(max_depth=50,
+        # #                                      n_estimators=200,
+        # #                                      max_features=0.15,
+        # #                                      n_jobs=-1),
           
-          'KNN'     : KNeighborsClassifier(algorithm='kd_tree',
-                                           leaf_size=50,
-                                           n_neighbors=5,
-                                           p=1,
-                                           weights='distance',
-                                           n_jobs=-1),
+        #   'KNN'     : KNeighborsClassifier(algorithm='kd_tree',
+        #                                    leaf_size=50,
+        #                                    n_neighbors=5,
+        #                                    p=1,
+        #                                    weights='distance',
+        #                                    n_jobs=-1),
           
-          'XGBoost' : xgb.XGBClassifier(learning_rate=0.1,
-                                        max_depth=10,
-                                        n_estimators=300,
-                                        n_jobs=-1),
+        #   'XGBoost' : xgb.XGBClassifier(learning_rate=0.1,
+        #                                 max_depth=10,
+        #                                 n_estimators=300,
+        #                                 n_jobs=-1),
           
-          'SelfTrainC' : SelfTrainingClassifier(mlp)
+        #   'SelfTrainC' : SelfTrainingClassifier(mlp)
           }
 
 ################################################################################

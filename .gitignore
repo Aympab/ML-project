@@ -11,3 +11,4 @@ __pycache*
 rapport/main.log
 *.out
 *.synctex.gz
+.ipynb_checkpoints

@@ -5,3 +5,9 @@ protein_test.predict
 protein_valid.predict
 protein_full.data
 __pycache*
+*.aux
+*.fdb_latexmk
+*.fls
+rapport/main.log
+*.out
+*.synctex.gz

@@ -57,7 +57,7 @@ grid_model = RandomizedSearchCV(model,
                                 cv=5,
                                 scoring = 'balanced_accuracy',
                                 verbose=3,
-                                n_jobs=-1
+                                n_jobs=-1,
                                 random_state=0)
 
 print("Fitting model...")

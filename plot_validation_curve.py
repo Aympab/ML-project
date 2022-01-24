@@ -32,9 +32,14 @@ from sklearn.pipeline import Pipeline
 # X, y = load_digits(return_X_y=True)
 # X, y = X[subset_mask], y[subset_mask]
 
-X, y, X_test, X_valid = load_data("data") 
-# scaler = RobustScaler()
-# X = scaler.fit_transform(X)
+X, y, X_test, X_valid = load_data("starting_kit/data") 
+
+trunc = 10000
+X = X[:trunc]
+y = y[:trunc]
+
+scaler = RobustScaler()
+X = scaler.fit_transform(X)
 
 # subset_mask = np.isin(y, [0, 1])  # binary classification: 1 vs 2X
 
@@ -46,15 +51,14 @@ X, y, X_test, X_valid = load_data("data")
 
 #scaler = FeatureAgglomeration()
 
-pipe = Pipeline([('scaler', RobustScaler()),
-                 ('reduction', KernelPCA(kernel='linear')),
+pipe = Pipeline([('reduction', KernelPCA(kernel='linear')),
                  ('simple_tree', KNeighborsClassifier(algorithm='brute',
                                                       n_neighbors=10,
                                                       p=1))
                             ])
 
 
-param_range = np.linspace(10, 950, 10)
+param_range = np.linspace(10, 950, 4)
 
 train_scores, test_scores = validation_curve(
     pipe,
@@ -64,7 +68,7 @@ train_scores, test_scores = validation_curve(
     param_name="reduction__n_components",
     param_range=param_range,
     scoring="balanced_accuracy",
-    n_jobs=-1,
+    n_jobs=2,
 )
 train_scores_mean = np.mean(train_scores, axis=1)
 train_scores_std = np.std(train_scores, axis=1)

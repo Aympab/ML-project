@@ -30,9 +30,19 @@
 
 \section{Introduction}
 
-The Machine Learning Project consists of a prediction challenge, hosted by the CodaLab platform, for inferring protein functions; more specifically, whether a protein of a particular organism has a particular function. During the project, various machine learning techniques were tested, from data processing to training algorithms, using the \textit{Python} programming language and favouring the \textit{scikit-learn} library. 
+The Machine Learning Project consists of a prediction challenge, hosted by the
+CodaLab platform, for inferring protein functions; more specifically, whether a
+protein of a particular organism has a particular function.
 
-The goal of this data challenge itself is to resolve a use case in data analysis which is inspired from a real scientific project (and real data in a simplified form), where the features were extracted from protein sequences of about 300 organisms. Data observation and solution were made available through \textit{protein\_train} files, in which the model should be trained. After that, the model could predict by means of a \textit{protein\_test} and \textit{protein\_valid} data sets and be evaluated internally (facilitated by a submission script), in order to output a final score. This final score is sent to a ranking, defining, thus, the competition challenge.
+The goal of this data challenge itself is to resolve a use case in data analysis
+which is inspired from a real scientific project (and real data in a simplified
+form), where the features were extracted from protein sequences of about 300
+organisms. Data observation and solution were made available through
+\textit{protein\_train} files, in which the model should be trained. After that,
+the model could predict by means of a \textit{protein\_test} and
+\textit{protein\_valid} data sets and be evaluated internally (facilitated by a
+submission script), in order to output a final score. This final score is sent
+to a ranking, defining, thus, the competition challenge.
 
 Our code can be found in
 \href{https://github.com/Aympab/ML-project}{this repository GitHub},
@@ -40,7 +50,16 @@ you will find more informations on how we processed to get our final models in
 the next sections.
 
 \section{Data Analysis and Visualisation}
-The first step of the project is to comprehend the data. The training set contains 53118 observations and 952 features, while the output is binary. We can use PCA to reduce the dimensionality of the data in order to do a 3d scatter plot of its 3 most important principal components coloured by its label [figure \ref{fig:3DPCA}]. From this graphic, we can promptly see that each label is not linearly separable from each other, inferring that linear models, such as logistic regression or SVM with a linear kernel, will not do a good classification job. The same conclusion can be achieved through the figure \ref{fig:5DPCA} showing the 5 principal components correlations and the scaling effect on the distribution.
+The first step of the project is to comprehend the data. The training set
+contains 53118 observations and 952 features, while the output is binary. We can
+use PCA to reduce the dimensionality of the data in order to do a 3d scatter
+plot of its 3 most important principal components coloured by its
+label [figure \ref{fig:3DPCA}]. From this graphic, we can promptly see that each
+label is not linearly separable from each other, inferring that linear models,
+such as logistic regression or SVM with a linear kernel will not do a good
+classification job. The same conclusion can be achieved through the figure
+\ref{fig:5DPCA} showing the 5 principal components correlations and the scaling
+effect on the distribution.
 
 
 \section{Pipeline}
@@ -49,13 +68,9 @@ After understanding our data, we can begin to work on it. As our training base i
 
 If we didn't have those extra datasets, we would have to further devise our training observations into another subset in order to test the performance of the algorithm. We chose, nevertheless, not to do this with the intent to optimize our use of data; computing, thus, the score only in the submitting stage.
 
-In order to properly choose a model, a series of operations have to be applied, including:
-\begin{itemize}
-    \item Pre-process the data.
-    \item Grid-search different estimators to optimize its hyper-parameters.
-    \item Submit the best model from each Grid-search.
-    \item Analyse the best score obtained from the different models, already ranked in the platform.
-\end{itemize}
+In order to properly choose a model, a series of operations have to be applied, including : 1. Pre-process the data;
+2. Grid-search different estimators to optimize its hyper-parameters; 3. Submit the best model from each Grid-search;
+4. Analyse the best score obtained from the different models, already ranked in the platform.
 
 The first two steps can be joined together in a \textit{scikit-learn} pipeline as a means to fit and predict the series of algorithms in only one step.
 
@@ -81,15 +96,15 @@ One important point during the utilisation of the grid-search function is to use
 
 Nevertheless, this faulted approach was used to enable the use of the CEMEF cluster, where more expensive calculations could be run. This had to happen because, due to memory and C++ libraries issues, a grid-search using a pipeline crashed when run on the cluster.
 
-This grid-searches were trained with different algorithms: Boosted trees (from xgboost), random forest, bagging trees, decision trees, KNN, SVC, neural networks and logistic regression.
+This grid-searches were trained with different algorithms: Boosted trees (from xgboost), random forest, bagging trees, decision trees, KNN, SVC, neural networks and self train classifier based on our MLP model.
 
 Each one of the best models is then trained in the new validation and test data sets for submission. One important point, is that the pre-processing applied in these observations was fitted only in the training ones.
 
 The best of the models submitted can be viewed in CodaLab ranking. Over the best models found, another fine tuning was yet applied in the random grid-search realized in the training set, with a Poisson distribution centered in the best parameters of the estimators. Then, those new models were submitted, achieving a higher score.
 
 
-\section{Results and Analysis}
 
+\section{Results and Analysis}
 The best overall models were the Neural Network (Multi-Layers Perceptron Classifier) and the KNN classifiers. They were combined with the pre-processing pipeline using a robust scaler and feature agglomeration to reduce the dimension of the data. In this way, a final score of around 0.93 could be obtained.
 
 The dimensionality reduction algorithm varied a lot concerning the number of features chosen, probably because of the limited search space constrained by the computational coast. The PCA with poly kernel, for example, took a very long time to fit and transform, so the search space had to be very limited.
@@ -156,26 +171,6 @@ In this way we were able to find a good pre-processing pipeline, resulting in be
         \label{fig:LearningCurveKNN}
     \end{subfigure}
 \end{figure}
-
-% \begin{figure}[htb]
-%     \centering
-%     \caption{Models performance table}
-%     \label{fig:PerfTable}
-%     \begin{tabular}{SSSSSSSS} \toprule
-%         {$m$} & {$\Re\{\underline{\mathfrak{X}}(m)\}$} & {$-\Im\{\underline{\mathfrak{X}}(m)\}$} & {$\mathfrak{X}(m)$} & {$\frac{\mathfrak{X}(m)}{23}$} & {$A_m$} & {$\varphi(m)\ /\ ^{\circ}$} & {$\varphi_m\ /\ ^{\circ}$} \\ \midrule
-%         1  & 16.128 & +8.872 & 16.128 & 1.402 & 1.373 & -146.6 & -137.6 \\
-%         2  & 3.442  & -2.509 & 3.442  & 0.299 & 0.343 & 133.2  & 152.4  \\
-%         3  & 1.826  & -0.363 & 1.826  & 0.159 & 0.119 & 168.5  & -161.1 \\
-%         4  & 0.993  & -0.429 & 0.993  & 0.086 & 0.08  & 25.6   & 90     \\ \midrule
-%         5  & 1.29   & +0.099 & 1.29   & 0.112 & 0.097 & -175.6 & -114.7 \\
-%         6  & 0.483  & -0.183 & 0.483  & 0.042 & 0.063 & 22.3   & 122.5  \\
-%         7  & 0.766  & -0.475 & 0.766  & 0.067 & 0.039 & 141.6  & -122   \\
-%         8  & 0.624  & +0.365 & 0.624  & 0.054 & 0.04  & -35.7  & 90     \\ \midrule
-%         9  & 0.641  & -0.466 & 0.641  & 0.056 & 0.045 & 133.3  & -106.3 \\
-%         10 & 0.45   & +0.421 & 0.45   & 0.039 & 0.034 & -69.4  & 110.9  \\
-%         11 & 0.598  & -0.597 & 0.598  & 0.052 & 0.025 & 92.3   & -109.3 \\ \bottomrule
-%     \end{tabular}
-% \end{figure}
 
 \begin{figure}[htb]
     \centering
